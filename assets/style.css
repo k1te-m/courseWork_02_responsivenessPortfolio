@@ -31,6 +31,9 @@ No media query since this is the default in Bootstrap */
     .container {
         background-color: white;
     }
+    .container img {
+        width: auto;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
