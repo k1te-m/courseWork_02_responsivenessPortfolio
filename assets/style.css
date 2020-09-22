@@ -4,6 +4,9 @@ body {
 .navbar-brand {
     background-color: aquamarine;
 }
+.container {
+    background-color: white;
+}
 
 
 
@@ -22,31 +25,27 @@ No media query since this is the default in Bootstrap */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     .container {
-        width: 450px;
-        background-color: gainsboro;
+        background-color: white;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .container {
-        width: 600px;
-        background-color: gainsboro;
+        background-color: white;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .container {
-        width: 750px;
-        background-color: gainsboro;
+        background-color: white;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .container {
-        width: 1000px;
-        background-color: gainsboro;
+        background-color: white;
     }
 }
