@@ -1,4 +1,9 @@
 body {
-    background-image: url(./37diamond.jpg);
-    background-position: center center;
+    background-color: gainsboro;
+}
+.container-fluid {
+    background-color: ghostwhite;
+}
+.navbar-brand {
+    background-color: aquamarine;
 }
