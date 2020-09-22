@@ -1,6 +1,4 @@
 body {
-    background-color: gainsboro;
-}
-.container {
-    background-color: white;
+    background-image: url(./37diamond.jpg);
+    background-position: center center;
 }
