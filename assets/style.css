@@ -6,6 +6,8 @@ body {
 }
 .container {
     background-color: white;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 
