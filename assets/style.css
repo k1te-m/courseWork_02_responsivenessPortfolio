@@ -1,0 +1,52 @@
+body {
+    background-color: gainsboro;
+}
+.navbar-brand {
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .container {
+        width: 450px;
+        background-color: gainsboro;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container {
+        width: 600px;
+        background-color: gainsboro;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        width: 750px;
+        background-color: gainsboro;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        width: 1000px;
+        background-color: gainsboro;
+    }
+}
