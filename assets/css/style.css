@@ -12,6 +12,7 @@ body {
   background-color: white;
   display: flex;
   flex-flow: column wrap;
+  
   width: 90%;
   margin-bottom: 75px;
   border: 5px solid orange;
@@ -34,12 +35,44 @@ body {
 #subButton {
   background-color: orange;
 }
+#contactBox{
+  margin-right: 15px;
+}
 
 /* Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
+  .container {
+    background-color: white;
+  }
+  .container img {
+    width: auto;
+    flex-flow: column wrap;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .container {
+    background-color: white;
+    width: 55%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .container img {
+    width: auto;
+  }
+  #contactBox {
+    margin-right: 45px;
+  }
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
   .container {
     background-color: white;
   }
@@ -48,23 +81,12 @@ No media query since this is the default in Bootstrap */
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .container {
-    background-color: white;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .container {
-    background-color: white;
-  }
-}
-
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     background-color: white;
+  }
+  .container img {
+    width: auto;
   }
 }
