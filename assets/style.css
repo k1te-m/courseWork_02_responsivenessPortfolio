@@ -1,5 +1,5 @@
 body {
-    background-color: gainsboro;
+    background-image: url(./green_dust_scratch.png);
 }
 html, body {
     min-height: 100%;
@@ -13,12 +13,14 @@ html, body {
     flex-flow: column wrap;
     width: 90%;
     margin-bottom: 75px;
+    border: 5px solid gainsboro;
+    border-radius: 25px;
 }
 .container-fluid {
     display: flex;
 }
 .footer-dark {
-    border-top: 7px solid aquamarine;
+    border-top: 7px solid orange;
 }
 .navbar-dark {
     margin-bottom: 35px;
