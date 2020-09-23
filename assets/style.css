@@ -2,7 +2,7 @@ body {
     background-color: gainsboro;
 }
 html, body {
-    height: 100%;
+    min-height: 100%;
 }
 .navbar-brand {
     background-color: aquamarine;
@@ -12,9 +12,16 @@ html, body {
     display: flex;
     flex-flow: column wrap;
     width: 90%;
+    margin-bottom: 75px;
 }
 .container-fluid {
     display: flex;
+}
+.footer-dark {
+    border-top: 7px solid aquamarine;
+}
+.navbar-dark {
+    margin-bottom: 35px;
 }
 
 
