@@ -89,6 +89,9 @@ No media query since this is the default in Bootstrap */
   #contactBox {
     margin-right: 100px;
   }
+  #aboutMe {
+    width: 60%;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
